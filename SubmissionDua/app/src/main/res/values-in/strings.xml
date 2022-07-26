@@ -1,0 +1,113 @@
+<resources>
+
+    <string name="app_name">Submission</string>
+    <string name="title_login_page">Selamat datang di Dicoding Users Story</string>
+
+    <string name="message_login_page">Mohon masukkan data anda dibawah ini</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Masuk</string>
+    <string name="donthaveaccount">Belum punya akun? \n Daftar disini</string>
+
+    <string name="dialog_loginResult_errorEmail_title">Error</string>
+    <string name="dialog_loginResult_errorEmail_message">Email belum terdaftar di aplikasi</string>
+    <string name="dialog_loginResult_errorEmail_button">Coba lagi</string>
+
+    <string name="dialog_loginResult_errorPassword_title">Error</string>
+    <string name="dialog_loginResult_errorPassword_message">Password salah</string>
+    <string name="dialog_loginResult_errorPassword_button">Coba lagi</string>
+
+    <string name="dialog_loginResult_error_title">Error</string>
+    <string name="dialog_loginResult_error_message">Telah terjadi kesalahan, harap coba lagi atau tunggu beberapa saat</string>
+    <string name="dialog_loginResult_error_button">Coba lagi</string>
+
+    <string name="title_signup_page">Silahkan isi data diri anda</string>
+    <string name="name">Nama</string>
+    <string name="signup">Daftar</string>
+    <string name="hint_name">Masukkan nama anda disini</string>
+    <string name="error_blank_name">Mohon masukkan nama anda terlebih dahulu</string>
+    <string name="hint_email">Masukkan email anda disini</string>
+    <string name="error_email">Mohon masukkan email yang valid</string>
+    <string name="error_blank_email">Mohon masukkan email anda terlebih dahulu</string>
+    <string name="hint_password">Masukkan password anda disini</string>
+    <string name="error_password">Panjang Password harus lebih besar atau sama dengan 6</string>
+    <string name="error_blank_password">Mohon masukkan password anda terlebih dahulu</string>
+
+    <string name="dialog_registerResult_success_title">Akun berhasil dibuat!</string>
+    <string name="dialog_registerResult_success_message">Klik Masuk untuk ke Home Page</string>
+    <string name="dialog_registerResult_success_button">Masuk</string>
+
+    <string name="dialog_registerResult_errorEmailUsed_title">Error</string>
+    <string name="dialog_registerResult_errorEmailUsed_message">Email sudah terdaftar di aplikasi</string>
+    <string name="dialog_registerResult_errorEmailUsed_button">Coba lagi</string>
+
+    <string name="dialog_registerResult_error_title">Error</string>
+    <string name="dialog_registerResult_error_message">Telah terjadi kesalahan, harap coba lagi atau tunggu beberapa saat</string>
+    <string name="dialog_registerResult_error_button">Coba lagi</string>
+
+    <string name="copyright">© Indratama PM</string>
+
+    <string name="MainActivity_pageTitle">Cerita</string>
+
+    <string name="dialog_logoutVerification_title">Peringatan!</string>
+    <string name="dialog_logoutVerification_message">Apakah anda yakin ingin keluar ? \nKlik dimana saja untuk kembali</string>
+    <string name="dialog_logoutVerification_button">Ya</string>
+
+    <string name="MainActivityNoDataTitle">Tidak ada data ditemukan.</string>
+    <string name="MainActivityNoDataSubTitle1">Tidak ada data ditemukan di aplikasi saat ini.\nYuk tambahkan cerita kamu dengan klik\n tombol +</string>
+    <string name="MainActivityNoDataSubTitle2">Telah terjadi kesalahan, harap coba lagi atau tunggu beberapa saat</string>
+
+    <string name="AddStoryActivity_pageTitle">Tambah Cerita</string>
+    <string name="AddStoryActivity_Location_PlaceHolder">"Lat: %1$s\nLon: %2$s"</string>
+    <string name="AddStoryActivity_error">Telah terjadi kesalahan, harap coba lagi atau tunggu beberapa saat</string>
+    <string name="camera">Kamera</string>
+    <string name="gallery">Galeri</string>
+    <string name="location">Lokasi (opsional)</string>
+    <string name="location_hint">Anda bisa menambahkan lokasi dengan klik tombol Lokasi</string>
+    <string name="hint_description">Tolong ceritakan kisahmu kepada kami</string>
+    <string name="error_blank_description">Mohon masukkan deskripsi cerita Anda terlebih dahulu</string>
+    <string name="error_blank_picture">Mohon masukkan gambar cerita Anda terlebih dahulu</string>
+    <string name="upload">Unggah</string>
+    <string name="cantgetpermissionspleaseallow">Harap izinkan permissions untuk mengakses fitur ini</string>
+    <string name="chooseAPicture">Pilih sebuah gambar</string>
+
+    <string name="title_activity_location_story_picker">LocationStoryPickerActivity</string>
+    <string name="LocationStoryPickerActivity_pageTitle">Pilih Lokasi Ceritamu</string>
+    <string name="LocationStoryPickerActivity_pick_this_location">Pilih lokasi ini</string>
+    <string name="LocationStoryPickerActivity_marker_title">Lokasi Cerita</string>
+    <string name="LocationStoryPickerActivity_marker_snippet">Drag untuk mengganti lokasi</string>
+    <string name="LocationStoryPickerActivity_toast_pleaseAllowLocationPermission">Mohon mengizinkan izin lokasi untuk menggunakan fitur ini!</string>
+    <string name="LocationStoryPickerActivity_toast_pleaseEnableGPS">Mohon mengaktifkan GPS untuk menggunakan fitur ini!</string>
+    <string name="LocationStoryPickerActivity_toast_pleaseWaitUntilMapsLoaded">Mohon tunggu sampai Maps berhasil memuat!</string>
+    <string name="LocationStoryPickerActivity_toast_error">Telah terjadi kesalahan, harap coba lagi atau tunggu beberapa saat</string>
+    <string name="LocationStoryPickerActivity_toast_errorLocationNotFound">Lokasi tidak ditemukan. Harap coba lagi</string>
+
+    <string name="addStoryResult_toast_success">Cerita berhasil diunggah!</string>
+
+    <string name="dialog_addStoryResult_error_title">Gagal mengunggah Cerita!</string>
+    <string name="dialog_addStoryResult_error_message">Klik Coba Lagi dan pastikan memasukkan gambar dan deskripsi yang valid</string>
+    <string name="dialog_addStoryResult_error_button">Coba Lagi</string>
+
+    <string name="unableToTakePicture">Gagal mengambil gambar</string>
+    <string name="unableToShowCamera">Gagal membuka Kamera</string>
+
+    <string name="DetailStoryActivity_pageTitle">Detail Cerita</string>
+
+    <string name="appwidget_text">STORY APP BANNER</string>
+    <string name="app_widget_description">Ini adalah Story App widget</string>
+    <string name="app_widget_empty_text">TIDAK ADA DATA</string>
+
+    <string name="maps_menuOption_title">Peta</string>
+    <string name="setting_menuOption_title">Pengaturan</string>
+    <string name="logout_menuOption_title">Keluar</string>
+
+    <string name="retry">Coba lagi</string>
+    <string name="title_activity_maps">MapsActivity</string>
+
+    <string name="MapsActivity_pageTitle">Cerita dengan Lokasi</string>
+    <string name="MapsActivity_toast_pleaseEnableGPS">Mohon mengaktifkan GPS untuk menggunakan fitur ini!</string>
+    <string name="MapsActivity_toast_noData">Belum ada Cerita yang ditambahkan dengan lokasi, ayo tambah ceritamu untuk jadi yang pertama</string>
+    <string name="MapsActivity_toast_error">Telah terjadi kesalahan, harap coba lagi atau tunggu beberapa saat</string>
+    <string name="MapsActivity_clickToSeeDetails">Klik untuk melihat detail</string>
+
+</resources>

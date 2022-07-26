@@ -1,0 +1,113 @@
+<resources>
+
+    <string name="app_name">Submission</string>
+    <string name="title_login_page">Welcome to Dicoding Users Story</string>
+
+    <string name="message_login_page">Please input your data below</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="donthaveaccount">Don\'t have an account? \n Sign up here</string>
+
+    <string name="dialog_loginResult_errorEmail_title">Error</string>
+    <string name="dialog_loginResult_errorEmail_message">Email have not been registered in this app</string>
+    <string name="dialog_loginResult_errorEmail_button">Dismiss</string>
+
+    <string name="dialog_loginResult_errorPassword_title">Error</string>
+    <string name="dialog_loginResult_errorPassword_message">Incorrect Password</string>
+    <string name="dialog_loginResult_errorPassword_button">Dismiss</string>
+
+    <string name="dialog_loginResult_error_title">Error</string>
+    <string name="dialog_loginResult_error_message">An error has occurred, please try again or wait for a few moments</string>
+    <string name="dialog_loginResult_error_button">Dismiss</string>
+
+    <string name="title_signup_page">Please fill in your details</string>
+    <string name="name">Name</string>
+    <string name="signup">Signup</string>
+    <string name="hint_name">Input your name here</string>
+    <string name="error_blank_name">Please input your name first</string>
+    <string name="hint_email">Input your email here</string>
+    <string name="error_email">Please input a valid email address</string>
+    <string name="error_blank_email">Please input your email first</string>
+    <string name="hint_password">Input your password here</string>
+    <string name="error_password">Password length must be greater or equal to 6</string>
+    <string name="error_blank_password">Please input your password first</string>
+
+    <string name="dialog_registerResult_success_title">Account successfully created!</string>
+    <string name="dialog_registerResult_success_message">Click Login to go to Home Page</string>
+    <string name="dialog_registerResult_success_button">Login</string>
+
+    <string name="dialog_registerResult_errorEmailUsed_title">Error</string>
+    <string name="dialog_registerResult_errorEmailUsed_message">Email have been registered in this app</string>
+    <string name="dialog_registerResult_errorEmailUsed_button">Dismiss</string>
+
+    <string name="dialog_registerResult_error_title">Error</string>
+    <string name="dialog_registerResult_error_message">An error has occurred, please try again or wait for a few moments</string>
+    <string name="dialog_registerResult_error_button">Dismiss</string>
+
+    <string name="copyright">© Indratama PM</string>
+
+    <string name="MainActivity_pageTitle">Story</string>
+
+    <string name="dialog_logoutVerification_title">Warning!</string>
+    <string name="dialog_logoutVerification_message">Are you sure you want to Logout ? \nClick anywhere to dismiss</string>
+    <string name="dialog_logoutVerification_button">Yes</string>
+
+    <string name="MainActivityNoDataTitle">No Data Found.</string>
+    <string name="MainActivityNoDataSubTitle1">There are no data in the app right now.\nTry adding your story by clicking\n the + button</string>
+    <string name="MainActivityNoDataSubTitle2">An error has occurred, please try again or wait for a few moments</string>
+
+    <string name="AddStoryActivity_pageTitle">New Story</string>
+    <string name="AddStoryActivity_Location_PlaceHolder">"Lat: %1$s\nLon: %2$s"</string>
+    <string name="AddStoryActivity_error">An error has occurred, please try again or wait for a few moments</string>
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+    <string name="location">Location (optional)</string>
+    <string name="location_hint">You can add your location by clicking Location button</string>
+    <string name="hint_description">Please tell us your story</string>
+    <string name="error_blank_description">Please input your story description first</string>
+    <string name="error_blank_picture">Please choose your story picture first</string>
+    <string name="upload">Upload</string>
+    <string name="cantgetpermissionspleaseallow">Please allow permissions to access this feature</string>
+    <string name="chooseAPicture">Choose a Picture</string>
+
+    <string name="title_activity_location_story_picker">LocationStoryPickerActivity</string>
+    <string name="LocationStoryPickerActivity_pageTitle">Pick your Story Location</string>
+    <string name="LocationStoryPickerActivity_pick_this_location">Pick this location</string>
+    <string name="LocationStoryPickerActivity_marker_title">Story Location</string>
+    <string name="LocationStoryPickerActivity_marker_snippet">Drag to change the location</string>
+    <string name="LocationStoryPickerActivity_toast_pleaseAllowLocationPermission">Please allow location permission to use this feature!</string>
+    <string name="LocationStoryPickerActivity_toast_pleaseEnableGPS">Please enable GPS to use this feature!</string>
+    <string name="LocationStoryPickerActivity_toast_pleaseWaitUntilMapsLoaded">Please wait until Maps successfully loaded!</string>
+    <string name="LocationStoryPickerActivity_toast_error">An error has occurred, please try again or wait for a few moments</string>
+    <string name="LocationStoryPickerActivity_toast_errorLocationNotFound">Location is not found. Please try Again</string>
+
+    <string name="addStoryResult_toast_success">Story successfully posted!</string>
+
+    <string name="dialog_addStoryResult_error_title">Unable to post Story!</string>
+    <string name="dialog_addStoryResult_error_message">Click Try again and make sure you input a valid picture and description</string>
+    <string name="dialog_addStoryResult_error_button">Try again</string>
+
+    <string name="unableToTakePicture">Unable to take picture</string>
+    <string name="unableToShowCamera">Unable to show Camera</string>
+
+    <string name="DetailStoryActivity_pageTitle">Detail Story</string>
+
+    <string name="appwidget_text">STORY APP BANNER</string>
+    <string name="app_widget_description">This is Story App widget</string>
+    <string name="app_widget_empty_text">NO DATA</string>
+
+    <string name="maps_menuOption_title">Maps</string>
+    <string name="setting_menuOption_title">Setting</string>
+    <string name="logout_menuOption_title">Logout</string>
+
+    <string name="retry">Retry</string>
+    <string name="title_activity_maps">MapsActivity</string>
+
+    <string name="MapsActivity_pageTitle">Story with Location</string>
+    <string name="MapsActivity_toast_pleaseEnableGPS">Please enable GPS to use this feature!</string>
+    <string name="MapsActivity_toast_noData">No Story been added with location, go add yours to be the first</string>
+    <string name="MapsActivity_toast_error">An error has occurred, please try again or wait for a few moments</string>
+    <string name="MapsActivity_clickToSeeDetails">Click to see details</string>
+
+</resources>

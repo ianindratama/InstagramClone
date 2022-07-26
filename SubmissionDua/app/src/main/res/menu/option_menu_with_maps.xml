@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/maps_option"
+        android:icon="@drawable/ic_baseline_map_24"
+        android:title="@string/setting_menuOption_title"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/setting_option"
+        android:icon="@drawable/ic_baseline_settings_24"
+        android:title="@string/setting_menuOption_title"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/logout_option"
+        android:icon="@drawable/logout"
+        android:title="@string/logout_menuOption_title"
+        app:showAsAction="always" />
+
+</menu>
